@@ -65,11 +65,11 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 ## Fixe dashboard laravel 11
-##1.Créer un projet laravel 
+## 1.Créer un projet laravel 
 ```bash
 composer create-project laravel/laravel nom_projet
-``
-##2.installer laravel/iu
+```
+## 2.installer laravel/iu
 ```bash
 composer require laravel/ui
 
@@ -88,12 +88,12 @@ npm install
 npm run dev
 
 ```
-##3.Créer un fichier
+## 3.Créer un fichier
 créer un fichier dans resources\views nommée header.blade.php 
-##4.Installer dashboard a partir le site  adminLTE
+## 4.Installer dashboard a partir le site  adminLTE
 [site adminLTE]](https://adminlte.io/docs/3.0/).
-##5.Choisir un modele de dashboard
-##6.Integer le dashboard dans le projet
+## 5.Choisir un modele de dashboard
+## 6.Integer le dashboard dans le projet
 je choisi le dashboard dans index.html
 copier le contenu de fichier index.html dans header.blade.php
 ```bash
@@ -1078,6 +1078,10 @@ copier le contenu de fichier index.html dans header.blade.php
 </html>
 
 ```
-##7.Copier les fichiers css et js  de dashboard dans dossier public de projet.
+## 7.Copier les fichiers css et js  de dashboard dans dossier public de projet.
 copier les dossiers dist , plugins et docs dans la dossier public de projet
+## 8.Mettre a jour le fichier home.blade.php dans resources\views
+```bash
+@extends('header')
+```
 
