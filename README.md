@@ -64,7 +64,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-## Fixe dashboard laravel 11
+## Fixe dashboard en laravel 11
 ## 1.Créer un projet laravel 
 ```bash
 composer create-project laravel/laravel nom_projet
