@@ -66,28 +66,28 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 ## Fixe dashboard laravel 11
 ##1.Créer un projet laravel 
-````bash
+```bash
 composer create-project laravel/laravel nom_projet
 ``
 ##2.installer laravel/iu
 ```bash
 composer require laravel/ui
 
-``
+```
 
 ```bash
 php artisan ui vue --auth
+```
 
-``
 
 ```bash
 npm install
 
-``
+```
 ```bash
 npm run dev
 
-``
+```
 ##3.Créer un fichier
 créer un fichier dans resources\views nommée header.blade.php 
 ##4.Installer dashboard a partir le site  adminLTE
@@ -1077,7 +1077,7 @@ copier le contenu de fichier index.html dans header.blade.php
 </body>
 </html>
 
-````
-7.Copier les fichiers css et js  de dashboard dans dossier public de projet.
+```
+##7.Copier les fichiers css et js  de dashboard dans dossier public de projet.
 copier les dossiers dist , plugins et docs dans la dossier public de projet
 
